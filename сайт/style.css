@@ -1,0 +1,259 @@
+.body1{
+    background: linear-gradient(222deg,#0f63ff 10%,#60cff0 15%, #73e9ec 20%, #1BFBB6 25%, #00ffa6 27%, #75ecec 40%, #73e9ec 50.97%, #60cff0 60.43%, #1369FF 80%, #1F78FC 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24pt;
+    text-shadow: 1px 0 1px rgba(16, 38, 182, 1), 
+                0 1px 1px rgba(16, 38, 182, 1), 
+                -1px 0 1px rgba(16, 38, 182, 1), 
+                0 -1px 1px rgba(16, 38, 182, 1);
+    color: #ffffff;
+    letter-spacing: 2pt;
+}
+.body2{
+    background: linear-gradient(222deg, #29F8BF 20%, #1BFBB6 50%,  #00ffa6 50.43%, #1BFBB6 95%);
+}
+.body3{
+    background: linear-gradient(222deg, #0f63ff 0%, #60cff0 50.43%, #73e9ec 60.97%, #1BFBB6 100%);
+    display: flex;
+    align-items: center;
+}
+.body4{
+    background:linear-gradient(222deg, #1369FF 80%, #1F78FC 98%);
+}
+.body5{
+    margin: 0;
+    border-top: 2px solid #4d85ff;
+    background: linear-gradient(222deg, #00ffa6 5%, #75ecec 50%, #73e9ec 50.97%, #60cff0 60.43%, #0f63ff 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32pt;
+    text-shadow: 1px 0 1px rgba(16, 38, 182, 1), 
+                0 1px 1px rgba(16, 38, 182, 1), 
+                -1px 0 1px rgba(16, 38, 182, 1), 
+                0 -1px 1px rgba(16, 38, 182, 1);
+    color: #ffffff;
+    letter-spacing: 2pt;
+}
+.fon{
+    background-image: url(шарики.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.container{
+    margin: 0 0;
+}
+.header-logo{
+    margin-top: -5px;
+    height: 92px;
+    width: 109px;
+}
+.header-line{
+    padding-left: 61px;
+    display: flex;
+    align-items: center;
+    font-size: 24pt;
+}
+.nav{
+    top: 23px;
+    right: 505px;
+    position: absolute;
+}
+.nav-item{
+    color: white;
+    text-decoration: none;
+    font-size: 24pt;
+    margin-right: 37px;
+    text-shadow:none;
+    text-shadow: 1px 0 1px rgba(16, 38, 182, 1), 
+                0 1px 1px rgba(16, 38, 182, 1), 
+                -1px 0 1px rgba(16, 38, 182, 1), 
+                0 -1px 1px rgba(16, 38, 182, 1);
+}
+.nav-item:hover{
+    color: #F0DB98;
+}
+.pic1{
+    position: absolute;
+    top: -1px;
+}
+.pic2{
+    position: absolute;
+    top: 19px;
+    left: 120px;
+}
+.pic3{
+    position: absolute;
+    top: 38px;
+    margin-left: 180px;
+}
+.pic4{
+    position: absolute;
+    top: 38px;
+    margin-left: 199px;
+}
+.pic5{
+    position: absolute;
+    top: 24px;
+    margin-left: 100px;
+}
+.pic6{
+    position: absolute;
+    top: 38px;
+    margin-left: 160px;
+}
+.line{
+    margin-left: 128px;
+}
+.spi li{
+    list-style: none;
+    list-style-image: url(9.png); 
+    list-style-position: outside;
+    text-indent: -25pt;
+    padding: 0;
+}
+.ema{
+    
+}
+.pasw{
+    
+}
+.rem{
+
+}
+.btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: #4d85ff;
+    width: 400px;
+    height: fit-content;
+}
+button:active{
+    background-color: #F0DB98;
+}
+button:hover{
+    background-color: #F0DB98;
+}
+.f1{
+    width: 200px;
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: #4d85ff;
+    border-radius: 5px;
+}
+.f2{
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 1em 9em;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #4d85ff;
+    text-decoration: none;
+}
+.f2:active{
+    background-color: #F0DB98;
+}
+.f2:hover{
+    background-color: #F0DB98;
+}
+.f3{
+    display: inline-block;
+    background-color: aliceblue;
+    padding: 1em 5.5em;
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #4d85ff;
+    text-decoration: none;
+}
+.f3:active{
+    background-color: #F0DB98;
+}
+.f3:hover{
+    background-color: #F0DB98;
+}
+.xyu{
+    padding-top: 190px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.5;
+}
+.xyu1{
+    padding-top: 46px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.5;
+}
+.f4{
+    width: 400px;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: aliceblue;
+    border-radius: 15px;
+    padding: 5;
+    margin-left: 0;
+}
+.f5{
+    width: fit-content;
+    font-size: 16pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4c5257;
+    font-weight: bold;
+    background-color: #FCE2E3;
+    border-color: aliceblue;
+    border-radius: 15px;
+    padding: 5;
+    margin-right: 0;
+    left: -4;
+}
+.f5:active{
+    background-color: #F0DB98;
+    color: aliceblue;
+}
+.f5:hover{
+    background-color: #F0DB98;
+    color: aliceblue;
+}
+.fr{
+    background-image: url(фон\ для\ фрейма.png);
+    padding-left: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14pt;
+    text-shadow: 1px 0 1px rgba(16, 38, 182, 1), 
+                0 1px 1px rgba(16, 38, 182, 1), 
+                -1px 0 1px rgba(16, 38, 182, 1), 
+                0 -1px 1px rgba(16, 38, 182, 1);
+    color: #ffffff;
+    letter-spacing: 2pt;
+}
+.r{
+    text-decoration: none;
+    color: #ffffff;
+}
+.r:hover{
+    text-decoration: none;
+    color: #F0DB98;
+}
+.pic10{
+    border: 3px solid #4c5257;
+    width: 170px;
+    height: 290px;
+}
+.pic11{
+    width: 70px;
+    height: 70px;
+    
+}
